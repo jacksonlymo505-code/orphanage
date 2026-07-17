@@ -1,0 +1,1 @@
+<?php =mysqli_connect('localhost','root','','orphanage_db'); if (!) { echo 'connect fail'; exit(1);} =mysqli_query(,'SHOW COLUMNS FROM donors'); while(=mysqli_fetch_assoc()) echo ['Field'].PHP_EOL; ?>
